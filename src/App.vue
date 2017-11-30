@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <h1> 🌈Fun with Colors🌈 </h1>
+    <kendo-colorpicker v-model="color">ColorPicker</kendo-colorpicker>
+    color: <span v-text="color"></span>
   </div>
 </template>
 
@@ -8,6 +11,7 @@ export default {
   name: 'app',
   data () {
     return {
+      color: "5CE500"
     }
   }
 }
