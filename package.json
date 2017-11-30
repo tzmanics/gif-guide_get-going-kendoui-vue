@@ -10,6 +10,9 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "@progress/kendo-inputs-vue-wrapper": "^2017.3.1116",
+    "@progress/kendo-theme-default": "^2.45.2",
+    "@progress/kendo-ui": "^2017.3.1116",
     "vue": "^2.4.4"
   },
   "browserslist": [
