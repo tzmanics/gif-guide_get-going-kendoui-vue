@@ -74,7 +74,7 @@ For instance:
 
 It's time to equip our project with all our fun Kendo UI accoutrements 😉 All we'll need for this project is the `kendo-ui`, `kendo-theme-default`, and `kendo-inputs-vue-wrapper` modules from `npm`. We can install those all in one line with the command:
 ```bash
-npm i @progress/kendo-ui @progress/kendo-default-theme @progess/kendo-inputs-vue-wrapper
+npm i @progress/kendo-ui @progress/kendo-theme-default @progress/kendo-inputs-vue-wrapper
 ```
 
 Since we're using the latest version of [`npm`](https://www.npmjs.com/) (`v5.5.1` at the time of this post), we don't need the `--save` flag to make sure this module is saved as one of our dependencies, `npm` does that by default.
